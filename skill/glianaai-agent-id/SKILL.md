@@ -45,7 +45,7 @@ GlianaAI and holds nothing).
    ```
 
    The answer has `key` (`gk_…`). `403 no_agent_id` means the wallet holds no Agent ID: the user claims one in the
-   Binance App (Wallet, Agent ID).
+   Binance App (Wallet > homepage banner > Agent ID).
 
 ## 2. Top up (USDT or USDC on BNB Chain, $0.10 to $1,000)
 
