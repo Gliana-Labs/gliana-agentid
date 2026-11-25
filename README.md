@@ -6,6 +6,15 @@ An agent whose Binance Agentic Wallet holds an Agent ID can sign in to [GlianaAI
 signature and fund its balance on BNB Chain. The balance then pays for 170+ models (chat, image, video, voice, music)
 through one OpenAI-compatible API. Built for the Binance Wallet × BNB Chain Agent ID Hackathon.
 
+## Deployed (BNB Chain mainnet)
+
+| | |
+|---|---|
+| `GlianaAgentTopUp` | [`0x37E97cE5681D28d86337a481dda470fd3FE19ACc`](https://bscscan.com/address/0x37E97cE5681D28d86337a481dda470fd3FE19ACc#code) (verified on BscScan and Sourcify) |
+| Deploy tx | [`0x2022270d…2caada`](https://bscscan.com/tx/0x2022270d5cdb0e07d5a5513336dc8b6a2eab8fa8530ceb5d42a7d59f322caada), block 135710797 |
+| Payee | `0x7662E00f8Ab4C362166e1FF649Ff6c2A638c80AD` |
+| API | `https://api.glianalabs.com/v1/agentid` |
+
 ## How it works
 
 1. **Sign in (identity).** `POST https://api.glianalabs.com/v1/agentid/challenge {address}` returns EIP-712 typed data.
