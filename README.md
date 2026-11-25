@@ -40,5 +40,5 @@ forge test
 ## Deploy
 
 ```bash
-PAYEE=0x… forge script script/Deploy.s.sol --rpc-url https://bsc-dataseed.bnbchain.org --broadcast --verify --interactive 1
+PAYEE=0x… forge script script/Deploy.s.sol --rpc-url https://bsc-dataseed.bnbchain.org --broadcast --verify --interactives 1
 ```
