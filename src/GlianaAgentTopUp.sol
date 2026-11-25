@@ -21,6 +21,8 @@ interface IAgentId {
  *   accepted tokens are immutable, fixed at deployment.
  * - The agent signs every top-up itself (Binance Agentic Wallet: preview, then the user confirms execute).
  *   The contract can only move tokens the caller approved, and only in the call the caller makes.
+ * - Tokens sent to this contract by a plain transfer (not through topUp) cannot be recovered: there is no rescue
+ *   function, by design, because any function that moves tokens out would need an owner. Always use topUp.
  */
 contract GlianaAgentTopUp {
     using SafeERC20 for IERC20;
