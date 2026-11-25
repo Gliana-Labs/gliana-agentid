@@ -27,6 +27,13 @@ through one OpenAI-compatible API. Built for the Binance Wallet × BNB Chain Age
 3. **Use it.** `POST /v1/agentid/topup/check {tx_hash}` credits the balance at once (a scan also credits every ~15 min).
    Then call any endpoint with `Authorization: Bearer gk_…`, e.g. `POST /v1/chat/completions`.
 
+## Agent skill
+
+[`skill/glianaai-agent-id/SKILL.md`](skill/glianaai-agent-id/SKILL.md) teaches an AI agent the whole flow with the
+Binance Agentic Wallet CLI (`baw`): sign in, approve, top up, check, call models. Every step that moves funds is a
+`baw ... preview` the user confirms before `execute`. `GET /v1/agentid/topup/calldata?usd=1&token=USDT` returns the
+two transactions ready-made, so the agent needs no ABI encoder.
+
 ## The contract
 
 `GlianaAgentTopUp` (BNB Chain, Solidity 0.8.28, MIT):
