@@ -1,6 +1,6 @@
 ---
 name: glianaai-agent-id
-description: Use GlianaAI (170+ AI models: chat, image, video, voice, music) with a Binance Agent ID. Sign in with the Agentic Wallet, top up a prepaid balance in USDT/USDC on BNB Chain, then call any model with a gk_ API key. Use when the user wants their agent to generate images, video, speech or text through GlianaAI, or to fund GlianaAI from their Agentic Wallet.
+description: "Use GlianaAI (170+ AI models: chat, image, video, voice, music) with a Binance Agent ID. Sign in with the Agentic Wallet, top up a prepaid balance in USDT/USDC on BNB Chain, then call any model with a gk_ API key. Use when the user wants their agent to generate images, video, speech or text through GlianaAI, or to fund GlianaAI from their Agentic Wallet."
 ---
 
 # GlianaAI with a Binance Agent ID
